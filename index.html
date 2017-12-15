@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pizza Yammy</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+      <h1>Pizza Yammy</h1>
+      <h2>All large Pizzas are $18.95</h2>
+      <h3>All small pizzas $10.95</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h2>My Pizza:</h2>
+          <form id="new-pizza">
+            <div class="radio" id="size">
+            <h5>Large or Small</h5>
+            <label>
+              <input type="radio" name="size" value="large">
+              Large
+            </label>
+            <label>
+              <input type="radio" name="size" value="small">
+              Small
+             </label>
+          </div>
+
+          <h4>Topping Options</h4>
+          <div class="form-group">
+            <input type="checkbox" name="individual-toppings" value="Cheese">Cheese<br>
+            <input type="checkbox" name="individual-toppings" value="Pepperoni">Pepperoni<br>
+            <input type="checkbox" name="individual-toppings" value="Artichoke">Artichoke<br>
+            <input type="checkbox" name="individual-toppings" value="Anchovy">Anchovy<br>
+            <input type="checkbox" name="individual-toppings" value="Olives">Olives<br>
+            <input type="checkbox" name="individual-toppings" value="Mushrooms">Mushrooms<br>
+            <input type="checkbox" name="individual-toppings" value="Pineapple">Pineapple<br>
+          </div>
+          <br>
+          <button type="submit" class="btn">Get My Pizza!</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
