@@ -3,13 +3,19 @@
 
 }
 h2 {
-
+  text-align: center;
 }
+
 h3:hover {
+  text-decoration: underline;
 }
 
 h3 {
+  text-align: center;
+  cursor: pointer;
+  color: #e567ac;
 }
+
 
 #classic {
 }
