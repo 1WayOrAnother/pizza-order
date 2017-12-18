@@ -23,6 +23,14 @@ Order.prototype.totalPrice = function() {
    return this.piToppingNames.join(', ');
 }
 
+// front-end logic
+$(document).ready(function() {
+
+  $("form").submit(function(event) {
+    event.preventDefault();
+    $("ul#receipt").empty(newOrder);
+    $('#container1').slideUp();
+    $('#container2').show(1000);
 
 
 

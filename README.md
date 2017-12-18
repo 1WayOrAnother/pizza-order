@@ -3,9 +3,15 @@ By Paul Kotok
 
 Description
 
-
-
-
+| Description        | Input           | Output  |
+| ------------- |:-------------:| -----:|
+| Program calculates price based on style selections | classic pizza | $ amount |
+| It calculates pizza price based on bread | classic pizza, Italian | $ amount |
+| Program calculates price based on size | classic pizza, Italian, large | $ amount |
+| Program calculates price based on quantity | classic pizza, Italian, large, quantity 2 | $ amount |
+| Program calculates price based on multiple toppings | cheese, pepperoni | $ amount |
+| Program calculates total price counting in all values | classic pizza, Italian, large, quantity 2, cheese, pepperoni | $ amount |
+| Program showing a receipt | classic pizza, Extra Crisp, large, quantity 2, cheese, pepperoni | You ordered two, large, special pizzas with, mushrooms, and pepperoni for specific | $ amount |
 
 
 Setup/Installation Requirements
