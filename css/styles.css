@@ -42,9 +42,12 @@ h3 {
 }
 
 #receiptTitle {
+  color: #e567ac;
+  text-align: center;
 }
 
 #receiptDescription {
+  text-align: center;
 }
 
 #receiptTotal {
