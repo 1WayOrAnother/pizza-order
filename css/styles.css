@@ -23,10 +23,12 @@ h3 {
 #excrisp {
   text-align: center;
   display: none;
+}
 
 #special {
-  display: none;
-}
+    text-align: center;
+    display: none;
+  }
 
 #coverPhoto {
 }
