@@ -26,7 +26,7 @@ Order.prototype.totalPrice = function() {
 // front-end logic
 $(document).ready(function() {
 
-  $("form").submit(function(event) {
+$("form").submit(function(event) {
     event.preventDefault();
     $("ul#receipt").empty(newOrder);
     $('#container1').slideUp();
