@@ -60,4 +60,7 @@ h3 {
 }
 
 .well {
+  background-color: light gray;
+  outline-style: double;
+  outline-color: ##e567ac;
 }
