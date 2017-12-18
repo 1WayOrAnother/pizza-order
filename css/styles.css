@@ -31,9 +31,12 @@ h3 {
   }
 
 #coverPhoto {
+    max-width: 100%;
 }
 
 #addToppings {
+  text-align: center;
+  color: #e567ac;
 }
 
 #checkoutButton {
