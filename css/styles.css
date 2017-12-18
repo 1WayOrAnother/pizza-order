@@ -15,10 +15,42 @@ h3 {
   cursor: pointer;
   color: #e567ac;
 }
-
-
 #classic {
+  display: none;
 }
 
 #excrisp {
+  display: none;
+}
+
+#special {
+  display: none;
+}
+
+#coverPhoto {
+}
+
+#addToppings {
+}
+
+#checkoutButton {
+}
+
+#container2 {
+  display: none;
+}
+
+#receiptTitle {
+}
+
+#receiptDescription {
+}
+
+#receiptTotal {
+}
+
+#thanks {
+}
+
+.well {
 }
