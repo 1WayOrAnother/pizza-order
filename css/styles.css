@@ -6,6 +6,7 @@
   color: White;
   text-shadow: black 0.3em 0.3em 0.3em;
 }
+
 h2 {
   text-align: center;
 }
@@ -19,6 +20,7 @@ h3 {
   cursor: pointer;
   color: #e567ac;
 }
+
 #classic {
   text-align: center;
   display: none;
@@ -30,12 +32,12 @@ h3 {
 }
 
 #special {
-    text-align: center;
-    display: none;
-  }
+  text-align: center;
+  display: none;
+}
 
 #coverPhoto {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 #addToppings {

@@ -1,176 +1,181 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Pizza Yammy</title>
-  </head>
-  <body>
-    <div class="jumbotron jumbotron-fluid">
-      <h1>Pizza Yammie</h1>
-    </div>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Pizza Yammy</title>
+</head>
+
+<body>
+  <div class="jumbotron jumbotron-fluid">
+    <h1>Pizza Yammie</h1>
+  </div>
   <!-- cover photo section end-->
-<!-- style options section -->
-    <div id="container1" class="container">
-      <div class="row">
-        <div class="col-sm-4">
+  <!-- style options section -->
+  <div id="container1" class="container">
+    <div class="row">
+      <div class="col-sm-4">
 
-        </div>
-        <div class="col-sm-4">
-          <div class="row">
-            <div id="classicTitle" class="col-sm-4">
-              <h3>Classic</h3>
-            </div>
-            <div id="excrispTitle" class="col-sm-4">
-              <h3>Extra Crisp</h3>
-            </div>
-            <div id="specialTitle" class="col-sm-4">
-              <h3>Special</h3>
-            </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="row">
+          <div id="classicTitle" class="col-sm-4">
+            <h3>Classic</h3>
           </div>
-        </div>
-        <div class="col-sm-4">
-
+          <div id="excrispTitle" class="col-sm-4">
+            <h3>Extra Crisp</h3>
+          </div>
+          <div id="specialTitle" class="col-sm-4">
+            <h3>Special</h3>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <div id="classic">
-            <h4>Is our classic pepperoni tasty pizza.</h4>
-          </div>
-          <div id="excrisp">
-            <h4>Extra Crispy and crunchy fresh.</h4>
-          </div>
-          <div id="special">
-            <h4>It is our special with your custom order.</h4>
-          </div>
+      <div class="col-sm-4">
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="classic">
+          <h4>Is our classic pepperoni tasty pizza.</h4>
         </div>
-      </div><br><br>
+        <div id="excrisp">
+          <h4>Extra Crispy and crunchy fresh.</h4>
+        </div>
+        <div id="special">
+          <h4>It is our special with your custom order.</h4>
+        </div>
+      </div>
+    </div><br><br>
 
-<!-- order form section -->
-      <form id="orderForm">
+    <!-- order form section -->
+    <form id="orderForm">
 
-        <div class="form-group">
-          <label for="piStyle">Choose Your Style:</label>
-          <select class="form-control" id="piStyle">
+      <div class="form-group">
+        <label for="piStyle">Choose Your Style:</label>
+        <select class="form-control" id="piStyle">
             <option value="10">Classic pizza</option>
             <option value="10">Expra Crisp pizza</option>
             <option value="10">Special pizza</option>
           </select>
-        </div>
+      </div>
 
-        <div class="form-group">
-          <label for="piBread">Choose Your Bread:</label>
-          <select class="form-control" id="piBread">
+      <div class="form-group">
+        <label for="piBread">Choose Your Bread:</label>
+        <select class="form-control" id="piBread">
             <option value="2">Italian</option>
             <option value="3">Amrican</option>
           </select>
-        </div>
+      </div>
 
-        <div class="form-group">
-          <label for="piSize">Choose Your Size</label>
-          <select class="form-control" id="piSize">
+      <div class="form-group">
+        <label for="piSize">Choose Your Size</label>
+        <select class="form-control" id="piSize">
             <option value="2">small</option>
             <option value="3">regular</option>
             <option value="4">large</option>
           </select>
-        </div>
+      </div>
 
-        <div class="form-group">
-          <label for="piQuantity">Choose Your Quantity:</label>
-          <select class="form-control" id="piQuantity">
+      <div class="form-group">
+        <label for="piQuantity">Choose Your Quantity:</label>
+        <select class="form-control" id="piQuantity">
             <option value="1">one</option>
             <option value="2">two</option>
             <option value="3">three</option>
             <option value="4">four</option>
           </select>
-        </div>
-
-        <br><h4 id="addToppings">Additional Toppings</h4><br>
-
-        <div class="row">
-          <div class="col-sm-2">
-
-          </div>
-          <div class="col-sm-8">
-            <div class="col-sm-4">
-              <input value="1" name="cheese" type="checkbox" class="piToppings">
-              <label class="custom-control custom-checkbox">Cheese</label>
-            </div>
-            <div class="col-sm-4">
-              <input value="1" name="paperoni" type="checkbox" class="piToppings">
-              <label class="custom-control custom-checkbox">Paperoni</label>
-            </div>
-            <div class="col-sm-4">
-              <input value="1" name="Anchovy" type="checkbox" class="piToppings">
-              <label class="custom-control custom-checkbox">Anchovy</label>
-            </div>
-          </div>
-
-          <div class="col-sm-2">
-
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-2">
-
-          </div>
-          <div class="col-sm-8">
-            <div class="col-sm-4">
-              <input value="1" name="Olives" type="checkbox" class="piToppings">
-              <label class="custom-control custom-checkbox">Olives</label>
-            </div>
-            <div class="col-sm-4">
-              <input value="1" name="Mushrooms" type="checkbox" class="piToppings">
-              <label class="custom-control custom-checkbox">Mushrooms</label>
-            </div>
-            <div class="col-sm-4">
-              <input value="1" name="Pineapple" type="checkbox" class="piToppings">
-              <label class="custom-control custom-checkbox">Pineapple</label>
-            </div>
-          </div>
-          <div class="col-sm-2">
-          </div>
-        </div><br><br>
-        <div class="row">
-          <div class="col-sm-5">
-
-          </div>
-          <div class="col-sm-2">
-            <button id="checkoutButton" type="submit" class="btn-gray btn-#e567ac">Get it Ready</button>
-          </div>
-          <div class="col-sm-5">
-
-          </div>
-        </div>
-      </form>
-<!-- container1 end -->
-    </div>
-<!-- container2 -->
-    <div id="container2" class="container">
-<!-- receipt section -->
-      <h1 id="receiptTitle">Your Order Has Been Processed!</h1><br>
-      <div class="row">
-        <div class="col-sm-2">
-        </div>
-        <div class="col-sm-8">
-          <div class="well">
-            <h4 id="receiptDescription">
-
-            </h4>
-            <h4 id="receiptTotal">
-
-            </h4>
-          </div>
-        </div>
-        <div class="col-sm-2">
-       </div>
       </div>
 
-      <br><h4 id="thanks">Thanks for choosing Pizza Yammie!</h4>
-<!-- receipt section end-->
+      <br>
+      <h4 id="addToppings">Additional Toppings</h4><br>
+
+      <div class="row">
+        <div class="col-sm-2">
+
+        </div>
+        <div class="col-sm-8">
+          <div class="col-sm-4">
+            <input value="1" name="cheese" type="checkbox" class="piToppings">
+            <label class="custom-control custom-checkbox">Cheese</label>
+          </div>
+          <div class="col-sm-4">
+            <input value="1" name="paperoni" type="checkbox" class="piToppings">
+            <label class="custom-control custom-checkbox">Paperoni</label>
+          </div>
+          <div class="col-sm-4">
+            <input value="1" name="Anchovy" type="checkbox" class="piToppings">
+            <label class="custom-control custom-checkbox">Anchovy</label>
+          </div>
+        </div>
+
+        <div class="col-sm-2">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2">
+
+        </div>
+        <div class="col-sm-8">
+          <div class="col-sm-4">
+            <input value="1" name="Olives" type="checkbox" class="piToppings">
+            <label class="custom-control custom-checkbox">Olives</label>
+          </div>
+          <div class="col-sm-4">
+            <input value="1" name="Mushrooms" type="checkbox" class="piToppings">
+            <label class="custom-control custom-checkbox">Mushrooms</label>
+          </div>
+          <div class="col-sm-4">
+            <input value="1" name="Pineapple" type="checkbox" class="piToppings">
+            <label class="custom-control custom-checkbox">Pineapple</label>
+          </div>
+        </div>
+        <div class="col-sm-2">
+        </div>
+      </div><br><br>
+      <div class="row">
+        <div class="col-sm-5">
+
+        </div>
+        <div class="col-sm-2">
+          <button id="checkoutButton" type="submit" class="btn-gray btn-#e567ac">Get it Ready</button>
+        </div>
+        <div class="col-sm-5">
+
+        </div>
+      </div>
+    </form>
+    <!-- container1 end -->
+  </div>
+  <!-- container2 -->
+  <div id="container2" class="container">
+    <!-- receipt section -->
+    <h1 id="receiptTitle">Your Order Has Been Processed!</h1><br>
+    <div class="row">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-8">
+        <div class="well">
+          <h4 id="receiptDescription">
+
+            </h4>
+          <h4 id="receiptTotal">
+
+            </h4>
+        </div>
+      </div>
+      <div class="col-sm-2">
+      </div>
     </div>
-  </body>
- </html>
+
+    <br>
+    <h4 id="thanks">Thanks for choosing Pizza Yammie!</h4>
+    <!-- receipt section end-->
+  </div>
+</body>
+
+</html>
