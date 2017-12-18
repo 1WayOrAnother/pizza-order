@@ -16,12 +16,13 @@ h3 {
   color: #e567ac;
 }
 #classic {
+  text-align: center;
   display: none;
 }
 
 #excrisp {
+  text-align: center;
   display: none;
-}
 
 #special {
   display: none;
@@ -50,6 +51,8 @@ h3 {
 }
 
 #thanks {
+  color: ##e567ac;
+  text-align: center;
 }
 
 .well {
