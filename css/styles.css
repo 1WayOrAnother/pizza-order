@@ -44,6 +44,8 @@ h3 {
 }
 
 #checkoutButton {
+  border-radius: 23px;
+  box-shadow: 0 3px 0 0 #e567ac;
 }
 
 #container2 {
